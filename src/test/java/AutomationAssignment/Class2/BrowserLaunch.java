@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class BrowserLaunch {
     public static void main(String[] args) throws InterruptedException {
-        String os = System.getProperty("os.name").toLowerCase();
+     String os = System.getProperty("os.name").toLowerCase();
         if (os.contains("linux"))
             System.setProperty("webdriver.gecko.driver", "/snap/bin/geckodriver");
 
