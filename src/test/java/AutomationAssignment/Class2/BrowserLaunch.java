@@ -32,5 +32,7 @@ public class BrowserLaunch {
         Select city = new Select(driver.findElement(By.id("city")));
         city.selectByIndex(2);
         driver.findElement(By.className("btn btn-primary")).click();
+
+
     }
 }
